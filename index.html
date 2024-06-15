@@ -14,7 +14,8 @@
             <a href="./contact.md">Contact Us</a>
         </nav>
         <h1>Dog Lover Blog</h1>
-        <img src="https://media.istockphoto.com/id/450726311/photo/labrador-retriever-12-months-old-sitting.jpg?s=612x612&w=0&k=20&c=FI8wkWoELFmIHy5YXH0SuRgsnsFc_p3CZujSjmDfeCQ=" alt="Dog Image">
+        <img src="https://media.istockphoto.com/id/450726311/photo/labrador-retriever-12-months-old-sitting.jpg?s=612x612&w=0&k=20&c=FI8wkWoELFmIHy5YXH0SuRgsnsFc_p3CZujSjmDfeCQ=" alt="Labrador">
+        <img src="https://media.istockphoto.com/id/1137958223/id/foto/german-shepherd-1-tahun-duduk-di-depan-latar-belakang-putih.jpg?s=612x612&w=0&k=20&c=Gskx0EJcV5OeZYiAQfsNA7zSdVQ4yhl1f4Mi0dE24Ys=" alt="German Shepard">
     </header>
 
     <main>
@@ -36,22 +37,37 @@
         </section>
 
         <section>
+            <table border="1">
+                <tr>
+                    <th>Dog type</th>
+                    <th>Character</th>
+                </tr>
+                <tr>
+                    <td>Labrador</td>
+                    <td>Energic and fun</td>
+                </tr>
+                <tr>
+                    <td>German Shepard</td>
+                    <td>Smart and guarding</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
             <h2>Want to adopt Dog? Please fill in the form if you do</h2>
             <form action="">
                 <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" value=""><br>
+                <input type="text" placeholder="first name" id="fname" name="fname" value=""><br>
                 <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname" value=""><br>
+                <input type="text" placeholder="last name" id="lname" name="lname" value=""><br>
                 <label for="email">Email:</label><br>
-                <input type="email" id="email" name="" value=""><br>
+                <input type="email" placeholder="email" id="email" name="" value=""><br>
                 <input type="radio" id="labrador" name="dogtype" value="labrador">
                 <label for="radio">Labrador</label><br>
                 <input type="radio" id="german_shepard" name="dogtype" value="german_shepard">
                 <label for="radio">German Shepard</label><br>
-                <input type="radio" id="golden_retriever" name="dogtype" value="golden_retriever">
-                <label for="radio">Golden Retriever</label><br>
                 <label for="reason">Why you choose this type?:</label><br>
-                <input type="textarea" id="reason" name="reason" value=""><br>
+                <input type="textarea" id="reason" name="reason" value="" rows="3" cols="10"><br>
                 <input type="submit" value="Submit">
             </form>
         </section>
