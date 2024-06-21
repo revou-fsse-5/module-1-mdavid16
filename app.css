@@ -18,6 +18,14 @@ header .image-container {
     flex-wrap: wrap; /* Allows images to wrap if the space is not enough */
 }
 
+.sticky {
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    background-color: rgb(0, 255, 110);
+    /* z-index: 1000;  */
+}
+
 nav ul {
     display: flex;
     list-style-type: none;
