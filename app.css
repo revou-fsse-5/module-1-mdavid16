@@ -1,5 +1,62 @@
+/* Flexbox buat header dan nav */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+header img {
+    width: auto;
+    max-width: 50%; /* biar bisa satu row gambar nya */
+}
+  
+/* buat gambar bisa side by side */
+header .image-container {
+    display: flex;
+    justify-content: center; /* Center the images */
+    flex-wrap: wrap; /* Allows images to wrap if the space is not enough */
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+  
+nav ul li {
+    margin: 0 10px;
+  }
+
 p {
     color: royalblue;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
+}
+
+button {
+    padding: 10;
+}
+
+/* Responsive display */
+@media (max-width: 600px) {
+nav ul {
+      flex-direction: column;
+}
+  
+body {
+      font-size: 14px;
+}
+}
+  
+@media (min-width: 601px) and (max-width: 1200px) {
+body {
+      font-size: 16px;
+    }
+}
+  
+@media (min-width: 1201px) {
+body {
+      font-size: 18px;
+    }
 }
